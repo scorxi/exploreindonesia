@@ -1,0 +1,494 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --font-medium: 500;
+  --font-semi-bold: 600;
+}
+
+.des-title,
+.car-title,
+.res-title,
+.semi-bold {
+  font-weight: var(--font-semi-bold);
+}
+
+body {
+  background: linear-gradient(to bottom right, #134e5e, #71b280);
+}
+
+#nobgRepeat {
+  background: linear-gradient(to bottom right, #134e5e, #71b280);
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+.navbar-toggler {
+  background-image: url("img/burgermenu.png");
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: #132930;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #90d39f;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 15px;
+  letter-spacing: 0.5px;
+}
+
+.awal {
+  padding: 35px 0px 35px 0px;
+}
+
+.awal .container-fluid {
+  background: linear-gradient(to bottom right, #fff, #529262);
+}
+
+.awal p {
+  padding: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.wrapper {
+  padding: 35px 0px 35px 0px;
+}
+
+.newsHeader {
+  padding: 20px;
+  background: linear-gradient(to right, #fff, #529262);
+  margin-bottom: 15px;
+}
+
+.media {
+  padding: 20px;
+  border-bottom: 1px solid slategray;
+  background: linear-gradient(to right, #fff, #529262);
+}
+
+.media-left {
+  margin-right: 30px;
+}
+
+.halaman {
+  padding: 20px;
+  background: linear-gradient(to right, #fff, #529262);
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.wrapper .videoItem {
+  padding: 20px;
+  border-bottom: 1px solid slategray;
+  background: linear-gradient(to right, #fff, #529262);
+}
+
+.tours {
+  padding: 35px 0px 35px 0px;
+}
+
+.tours .container-fluid {
+  background: linear-gradient(to bottom right, #fff, #529262);
+  margin-bottom: 35px;
+}
+
+.tours .header h2 {
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.tours .header p {
+  padding: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.tours .container {
+  padding: 35px 0px 35px 0px;
+}
+
+.tourItem .thumb {
+  position: relative;
+}
+
+.tourItem .thumb .content {
+  position: absolute;
+  top: -410px;
+  left: 60px;
+}
+
+.tourItem .thumb .content p {
+  margin-bottom: 120px;
+}
+
+.tourItem .thumb .content h2 {
+  margin-bottom: 100px;
+}
+
+.tourItem .thumb .content a button {
+  background: linear-gradient(to right, #71b280, #132930, #71b280);
+  background-position: left;
+  background-size: 350%;
+  width: 150px;
+  height: 46px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 35px;
+  border: 0.5px solid slategray;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 16px;
+  transition: all 500ms ease;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background-position 400ms ease;
+}
+
+.tourItem .thumb .content a button:hover {
+  background-position: right;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.tourItem img {
+  filter: brightness(65%);
+  width: 340px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+
+.tourItem .content p {
+  padding: 3px;
+  background: linear-gradient(to right, #71b280, #132930, #71b280);
+  background-size: 600%;
+  border-radius: 18px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.tourItem .content h2 {
+  padding: 3px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+.header h2 {
+  text-align: center;
+}
+
+.header p {
+  text-align: center;
+}
+
+.header em {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destinasi .container-fluid {
+  background: linear-gradient(to bottom right, #fff, #529262);
+  margin-bottom: 70px;
+}
+
+.destinasi .header h2 {
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.destinasi .header p {
+  padding: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.list-group li {
+  background: linear-gradient(to right, #fff, #529262);
+}
+
+.list-group .badge {
+  background-color: #90d39f;
+  color: black;
+  font-weight: 800;
+}
+
+.galeri {
+  padding: 35px 0px 35px 0px;
+}
+
+.galeri .container-fluid {
+  background: linear-gradient(to bottom right, #fff, #529262);
+  margin-bottom: 70px;
+  margin-top: 35px;
+}
+
+.galeri .header h2 {
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.galeri .header p {
+  padding: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.galeri .figure-caption {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.rental .container-fluid {
+  background: linear-gradient(to bottom right, #fff, #529262);
+  margin-bottom: 70px;
+}
+
+.rental .header h2 {
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.rental .header p {
+  padding: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.rental .container .card {
+  margin: 25px;
+}
+
+.rental .container .card-body {
+  background: linear-gradient(to bottom right, #fff, #529262);
+}
+
+.rental .container .card-body em {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.rental .container .card-body .btn {
+  background: linear-gradient(to right, #134e5e, #132930, #134e5e);
+  background-position: left;
+  background-size: 350%;
+  width: 140px;
+  height: auto;
+  padding: 5px;
+  border: 0.5px solid #90d39f;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 13px;
+  transition: all 500ms ease;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background-position 400ms ease;
+}
+
+.rental .container .card-body .btn:hover {
+  background-position: right;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.resort .container-fluid {
+  background: linear-gradient(to bottom right, #fff, #529262);
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.resort .header h2 {
+  padding: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.resort .header p {
+  padding: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.resort .container .card {
+  background: linear-gradient(to bottom right, #fff, #529262);
+}
+
+.resort .container .card-body p {
+  color: black;
+  font-size: 16px;
+}
+
+.restoran {
+  padding: 35px 0px 35px 0px;
+}
+
+.restoran .container-fluid {
+  background: linear-gradient(to bottom right, #fff, #529262);
+  margin-bottom: 70px;
+  margin-top: 35px;
+}
+
+.restoran .header h2 {
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.restoran .header p {
+  padding: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.restoran .figure-caption {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.comments .container-fluid {
+  background: linear-gradient(to bottom right, #fff, #529262);
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.comments .header {
+  padding: 15px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.comments .container .media {
+  background: none;
+  border-bottom: 1px solid #132930;
+}
+
+.comments .container .media img {
+  border-radius: 50%;
+}
+
+.comments .container .media p {
+  font-size: 15px;
+}
+
+.quotes .container-fluid {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.quotes .blockquote p {
+  font-size: 26px;
+  font-weight: 600;
+  padding: 35px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.quotes .blockquote footer {
+  color: black;
+}
+
+footer .container-fluid {
+  background: linear-gradient(to bottom right, #fff, #569262);
+}
+
+footer .row {
+  padding: 35px;
+}
+
+footer .links li a {
+  display: inline;
+  float: left;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  background: #134e5e;
+  text-align: center;
+  margin: 12px;
+  transition: all 200ms ease;
+}
+
+footer .links li a {
+  position: relative;
+  top: 15px;
+  left: -55px;
+}
+
+footer .links li a:hover {
+  background: #569262;
+}
+
+footer .links li {
+  list-style: none;
+}
+
+footer .links li a img {
+  position: relative;
+  top: -2.8px;
+}
+
+footer .contacts h3 {
+  position: relative;
+  left: 40px;
+  margin-bottom: 15px;
+}
+
+footer .contacts p {
+  position: relative;
+  left: 40px;
+}
+
+footer .container-fluid li {
+  list-style: none;
+}
+
+footer #footer {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #132930;
+  color: white;
+}
